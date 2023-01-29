@@ -24,10 +24,12 @@ you can download the code and see the idea on itself, the code does not include 
 download the package and extract it, open it in VSC and run it in Live Server
 
 if the code shows some errors, add the following lines to the main.js file( in the first - 9th row) -
+ 
 -------
 excBlockContainer = [{}];
  
 window.localStorage.setItem('block', JSON.stringify(excBlockContainer));
+ 
 -------
 
   
