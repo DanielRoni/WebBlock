@@ -18,4 +18,15 @@ can be a very cool concept - but i am missing out on some code:
 you can download the code and see the idea on itself, the code does not include that much but for me it was a start
   will gladly take ideas, code, suggestions and offers
   
+# Download
+
+download the package and extract it, open it in VSC and run it in Live Server
+
+if the code shows some errors, add the following lines to the main.js file( in the first - 9th row) -
+-------
+window.localStorage.setItem('block', JSON.stringify(excBlockContainer));
+excBlockContainer  = JSON.parse(window.localStorage.getItem('block'));
+-------
+
+  
   Thanks!
